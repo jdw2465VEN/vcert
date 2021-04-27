@@ -10,11 +10,14 @@ We welcome and appreciate all contributions. Got questions or want to discuss so
 
 # VCert CLI for Venafi Cloud
 
-Venafi VCert command line utility is designed to generate keys and simplify certificate acquisition by eliminating the need to write code to interact with the Venafi REST API. VCert is available in 32 and 64 bit versions for Linux, Windows, and macOS.
+Venafi VCert is a command line tool designed to generate keys and simplify certificate acquisition, eliminating the need to write code that's required to interact with the Venafi REST API. VCert is available in 32- and 64-bit versions for Linux, Windows, and macOS.
 
-The following content applies to the latest version of VCert CLI, click [here](https://github.com/Venafi/vcert/releases/latest) to download it from https://github.com/Venafi/vcert/releases/latest.
+This article applies to the latest version of VCert CLI, which you can [download here](https://github.com/Venafi/vcert/releases/latest).
 
 ## Quick Links
+
+Use these links to quickly jump to a relevant section lower on this page:
+
 - [Detailed usage examples](#examples)
 - [Options for requesting a certificate using the `enroll` action](#certificate-request-parameters)
 - [Options for downloading a certificate using the `pickup` action](#certificate-retrieval-parameters)
@@ -26,8 +29,10 @@ The following content applies to the latest version of VCert CLI, click [here](h
 
 ## Prerequisites
 
-1. The Venafi Cloud REST API is accessible at [https://api.venafi.cloud](https://api.venafi.cloud/swagger-ui.html)
-from the system where VCert will be executed.
+Review these prerequistes to get started. You'll need the following:
+
+1. Verify that the Venafi Cloud REST API at [https://api.venafi.cloud](https://api.venafi.cloud/swagger-ui.html)
+is accessible from the system where VCert will be run.
 2. You have successfully registered for a Venafi Cloud account, have been granted at least the
 OutagePREDICT "Resource Owner" role, and know your API key.
 3. A CA Account and Issuing Template exist and have been configured with:
